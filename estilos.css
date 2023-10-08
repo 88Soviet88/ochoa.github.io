@@ -1,0 +1,253 @@
+body{
+    margin: 0px;
+}
+
+.color {
+    color: green;
+}
+
+.padre{
+    width: 100vw;
+    height: 15vh;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(78, 72, 72);
+}
+.divh{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 200px;
+}
+.img{
+    position: relative;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100vw;
+    height:100vh;
+    }
+    
+.texto{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    height: 50px;
+    width: 600px;
+    color: white;
+    font-size: larger;
+    text-align: right;
+}
+.divha{
+    color: white;
+    border: 1px solid white;
+    width: 210px;
+    height: 25px;
+    border-radius: 7%;
+    position: relative;
+    top: -123px;
+    left: 750px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.divhb{
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+    width: 210px;
+    height: 25px;
+    border-radius: 7%;
+    position: relative;
+    top:-150px;
+    left: 1000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.relleno{
+    height: 150px;
+}
+.conoce{
+    color: black;
+    width: 100vw;
+    height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.oradores{
+    color: black;
+    width: 100vw;
+    height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.padre1{
+    box-sizing: content-box;
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.hijo{
+    width: 300px;
+    height: 500px;
+    color: black;
+}
+.hijo11{
+    width: 60px;
+    height: 15px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.hijo12{
+    width: 50px;
+    height: 15px;
+    background-color: skyblue;
+    left: 80px;
+    margin-top: -15px;
+    position: relative;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.hijo13{
+    padding: 10px;
+}
+.hijo21{
+    width: 60px;
+    height: 15px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.posicion{
+   padding: 0px 10px;
+}
+
+.hijo22{
+    width: 50px;
+    height: 15px;
+    background-color: skyblue;
+    left: 80px;
+    margin-top: -15px;
+    position: relative;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.hijo23{
+    padding: 10px;
+}
+.hijo31{
+    width: 52px;
+    height: 15px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.hijo32{
+    width: 50px;
+    height: 15px;
+    background-color: red;
+    left: 80px;
+    margin-top: -15px;
+    position: relative;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.hijo33{
+    padding: 10px;
+}
+.padre2{
+    color: white;
+    width: 100wh;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    background-color: rgb(78, 72, 72);
+}
+.texto2{
+    position:relative;
+    color: white;
+    text-align:justify;
+    padding: 0px 10px;
+}
+.orador{
+    color: white;
+    border: 1px solid white;
+    width: 210px;
+    height: 25px;
+    border-radius: 7%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.conviertete{
+    color: black;
+    width: 100vw;
+    height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.ora{
+    color: black;
+    width: 100vw;
+    height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.anotate{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    width: 100vw;
+    height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content:space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nombre{
+    width: 200px;
+    height: 20px;
+}
+.apellido{
+    width: 200px;
+    height: 20px;
+}
+.hablar{
+    width: 410px;
+    height: 100px;
+    right: 200px;
+}
+.enviar{
+    background-color: lawngreen;
+    width: 420px;
+    height: 20px;
+}
+
